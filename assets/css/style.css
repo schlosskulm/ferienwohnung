@@ -252,7 +252,7 @@ footer {
 /* Die folgenden Styles bewirken, dass die Beschreibung für die einzelnen
 Carousel Bilderunterhalb des Bildes statt im Bild angezeigt werden */
 .carousel {
-  padding-bottom: 4rem;
+  padding-bottom: 5rem;
   overflow: hidden;
 }
 
