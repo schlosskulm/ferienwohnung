@@ -217,7 +217,7 @@ footer {
 
 .carousel-indicators {
   position: absolute;
-  bottom: 4rem;
+  bottom: 0.1rem;
   margin: 0;
   left: 0;
   right: 0;
@@ -230,7 +230,6 @@ footer {
   width: 20px;
   height: 10px;
   margin: 0;
-  border: 4px solid black;
   background: transparent;
 }
 
@@ -247,6 +246,12 @@ footer {
 .carousel-control-prev-icon {
   width: 5vw;
   height: 5vw;
+}
+
+.button-style {
+  border: 4px solid black!important;
+  width: 20px!important;
+  height: 10px!important;
 }
 
 /* Die folgenden Styles bewirken, dass die Beschreibung für die einzelnen
