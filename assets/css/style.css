@@ -254,10 +254,14 @@ footer {
   height: 10px!important;
 }
 
+.padding-2 {
+  margin-bottom: 5rem;
+}
+
 /* Die folgenden Styles bewirken, dass die Beschreibung für die einzelnen
 Carousel Bilderunterhalb des Bildes statt im Bild angezeigt werden */
 .carousel {
-  padding-bottom: 5rem;
+  padding-bottom: 10rem;
   overflow: hidden;
 }
 
