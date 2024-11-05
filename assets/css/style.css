@@ -246,6 +246,8 @@ footer {
 .carousel-control-prev-icon {
   width: 5vw;
   height: 5vw;
+  background-color: black;
+  border-radius: 50%;
 }
 
 .button-style {
@@ -329,12 +331,20 @@ Carousel Bilderunterhalb des Bildes statt im Bild angezeigt werden */
     margin: 0 0.6rem;
   }
 
+  .padding-right {
+    padding-right: 2rem;
+  }
+
 }
 
 @media (min-width: 992px) {
 
   .profile-pictures {
     transform: scale(0.75);
+  }
+
+  .padding-right {
+    padding-right: 2rem;
   }
 
 }
