@@ -5,7 +5,10 @@ window.onload = function () {
         event.preventDefault();
         emailjs.sendForm('service_fcm8eeh', 'schlosskulm_template', this)
             .then(function () {
-                window.location.href = 'https://schlosskulm.github.io/ferienwohnung/index.html';
+            <div id="contact-confirmation"></div>
+                let contactConfirmation = document.getElementById("contact-confirmation");
+                contactConfirmation.innerHTML="<p>Danke für deine Nachricht. Wir setzen uns zeitnah mit dir in Verbindung.</p>";
+                /*window.location.href = 'https://schlosskulm.github.io/ferienwohnung/kontakt.html';*/
             }, function (error) {
                 console.log('FAILED...', error);
                 alert('Unfortunately your message has not been sent due to an error. Please try again.');
