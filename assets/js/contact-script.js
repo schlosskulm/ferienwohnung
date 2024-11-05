@@ -5,7 +5,6 @@ window.onload = function () {
         event.preventDefault();
         emailjs.sendForm('service_fcm8eeh', 'schlosskulm_template', this)
             .then(function () {
-                alert('SUCCESS!');
                 window.location.href = 'https://8000-schlosskulm-ferienwohnu-0gymsjmku15.ws-eu116.gitpod.io/index.html';
             }, function (error) {
                 console.log('FAILED...', error);

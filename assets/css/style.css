@@ -257,7 +257,7 @@ footer {
 }
 
 .padding-2 {
-  margin-bottom: 5rem;
+  padding-bottom: 5rem;
 }
 
 /* Die folgenden Styles bewirken, dass die Beschreibung für die einzelnen
@@ -274,6 +274,12 @@ Carousel Bilderunterhalb des Bildes statt im Bild angezeigt werden */
 
 .carousel-inner {
   overflow: visible;
+}
+
+/* Haus Mieten */
+
+.padding-2rem {
+  padding-bottom: 2rem;
 }
 
 /* Tagesausflüge */
@@ -307,12 +313,6 @@ Carousel Bilderunterhalb des Bildes statt im Bild angezeigt werden */
 
   .footer-font-size {
     font-size: 1rem;
-  }
-
-  /* Upper and Lower Apartment Galleries */
-
-  .carousel {
-    padding-bottom: 7rem;
   }
 
 }
