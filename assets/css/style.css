@@ -1,6 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Arima:wght@100..700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&display=swap');
 
 /* Allgemeine Styles */
 
@@ -207,7 +205,7 @@ footer {
   --bs-accordion-border-color: grey;
 }
 
-/* Bootstrap Carousel */
+/* Bootstrap Carousel (Fotogalerie) */
 
 .gallery-resize {
   max-width: 20rem;
@@ -319,7 +317,7 @@ Carousel Bilderunterhalb des Bildes statt im Bild angezeigt werden */
 /* Media query: tablets and larger (768px and up) */
 @media (min-width: 768px) {
 
-  /* Location Page */
+  /* Anfahrt */
 
   .width-50 {
     width: 75%;
@@ -330,7 +328,7 @@ Carousel Bilderunterhalb des Bildes statt im Bild angezeigt werden */
 /* Large devices (laptops and desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1115px) {
 
-  /* Nav Bar and Header */
+  /* Navigationsbar und Header */
 
   .margin-left-right {
     margin: 0 0.6rem;
