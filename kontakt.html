@@ -106,7 +106,7 @@
                     <div class="col-sm-8">
                         <p>Du hast Fragen zur Unterkunft, Gegend oder brauchst Informationen zu einem anderen Thema?
                             Nimm gerne mit uns Kontakt auf!</p>
-                        <section>
+                        <div>
                             <form id="contact-form" class="form-style">
                                 <label for="user_name">Name</label>
                                 <br>
@@ -124,7 +124,7 @@
                                 <input type="submit" value="Abschicken" id="confirmation"
                                     class="button-style">
                             </form>
-                        </section>
+                        </div>
                     </div>
                     <div class="col-sm-2">
                     </div>
@@ -160,9 +160,9 @@
         $("#copyright").text(new Date().getFullYear());
     </script>
     <!-- EmailJS -->
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
     </script>
-    <script type="text/javascript">
+    <script>
         (function () {
             emailjs.init({
                 publicKey: "PlDJQGfktAUP9-Pfx",
