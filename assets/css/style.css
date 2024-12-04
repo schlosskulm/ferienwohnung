@@ -303,6 +303,16 @@ Carousel Bilderunterhalb des Bildes statt im Bild angezeigt werden */
 
 /* Media Queries */
 
+/* Media query: Smartphones (500px and less) */
+
+@media (max-width: 500px) {
+
+  .carousel-indicators {
+    display: none !important;
+  }
+
+}
+
 /* Media query: large or landscape phones (576px and up) */
 @media (min-width: 576px) {
 
